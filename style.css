@@ -1,0 +1,71 @@
+/* font-family: "Acme", sans-serif; */
+:root {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: goldenrod;
+}
+
+.bi-list{
+    font-size: 2rem;
+}
+
+/* Estilos para el menu de nav */
+.item-link{
+    text-decoration: none;
+    color: white;
+}
+
+.item-link:hover{
+    border-bottom: 5px solid black;
+}
+
+/* Estilos img header */
+.header{
+    height: 52vw;
+    min-height: 500px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url(/public/assets/img/c3.jpg) center/cover;
+
+}
+
+.marco{
+    height: min(calc(30vw + .5rem), 100rem);
+    width: min(calc(30vw + .5rem), 100rem);
+    min-height: 15rem;
+    min-width: 15rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+}
+
+.imgPerfil{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.imgPerfil:hover{
+    box-shadow: 0px 0px 54px 5px rgba(255,255,255,0.75);
+}
+
+.titulo{
+    color: white;
+    font-size: min(calc(3vw + .5rem), 4rem);
+    font-weight: 700;
+    
+}
+
+/* Estilos main */
+
+
