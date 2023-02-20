@@ -1,4 +1,5 @@
-/* font-family: "Acme", sans-serif; */
+/* font-family: "Acme", sans-serif; 
+font-family: "Akaya Kanadaka", cursive; */
 :root {
     padding: 0%;
     margin: 0%;
@@ -17,6 +18,7 @@
 .item-link{
     text-decoration: none;
     color: white;
+    font-family: "Akaya Kanadaka", cursive;
 }
 
 .item-link:hover{
@@ -27,7 +29,6 @@
 .header{
     height: 52vw;
     min-height: 500px;
-    background: black;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -68,4 +69,28 @@
 
 /* Estilos main */
 
+.main{
+    font-family: "Akaya Kanadaka", cursive;
+}
 
+/* Redes */
+
+.redes{
+    height: 4rem;
+    background-color: #ccd;
+    text-align: center;
+}
+
+.redes i{
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem;
+    opacity: .60;
+}
+
+.redes a:hover i{
+    font-size: 3rem;
+    padding: .5rem;
+    opacity: 1;
+    transition: 0.2s;
+}

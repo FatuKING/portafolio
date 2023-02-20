@@ -7,6 +7,8 @@
     <title>Facundo Cozzani - Web Developer</title>
   </head>
   <body>
+    <!-- Navegacion -->
+
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Facundo Cozzani</a>
@@ -28,13 +30,14 @@
               <a class="item-link" href="#aboutMe">About me</a>
             </li>
             <li class="p-1">
-              <a class="item-link" href="#Contact">Contact</a>
+              <a class="item-link" href="#contact">Contact</a>
             </li>          
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- Encabezado de pagina - Imagen de perfil -->
     <header class="header">  
         <div class="marco">
           <img class="imgPerfil" src="/public/assets/img/perfil.jpg" alt="">
@@ -43,15 +46,24 @@
         <h1 class="titulo">Web Developer</h1>
     </header>
 
-    <hr>
+    <hr class="container">
 
-    <main class="">
-      <section class="container">
-        <article class="container-fluid">
+    <!-- Cuerpo de pagina -->
+    <main class="main">
+      
+      <!-- Acerca de mi -->
+      <section class="container-fluid">
+        <article class="container-fluid" id="aboutMe">
           <h2 class="">Acerca de mi</h2>
 
-          <p class="">Soy desarrolador Front-End <a class="btn btn-primary" href="" download="">Descargar</a></p>
+          <p class="">Soy desarrolador Front-End <br>
+          <a class="btn btn-primary" href="" download="">Descargar</a>
+          </p>
         </article>
+
+        <hr class="container">
+
+        <!-- Lista de habilidades -->
 
         <article class="container-fluid">
           <h2>Habilidades</h2>
@@ -61,22 +73,60 @@
             <li>Doy estilos a mis proyectos usando <b>CSS</b></li>
             <li>Programo aplicaciones en <b>JavaScript</b></li>
             <li>Actualizo y guardo mis trabajos usando <b>GIT</b></li>
-            <li>NodeJS</li>
-            <li>Bootstrap</li>
-            <li>Vite</li>
-            <li>React</li>
-            <li>SQL Server</li>
+            <li>Manejo de paquetes y dependencias con <b>NodeJS</b></li>
+            <li>Manejo de librerias como <b>Bootstrap</b></li>
+            <li>Creo aplicaciones usando <b>React</b></li>
+            <li>Manejo de bases de datos relacionales <b>SQL Server</b></li>
           </ul>
         </article>
       </section>
 
-      <section class="">
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
+      <hr class="container">
+
+      <!-- Proyectos -->
+      <section class="container-fluid">
+        
+        <h2>Proyectos</h2>
+
+        <div class="row">
+          <article class="col">
+            <div class="card">
+              <img src="/public/assets/img/proyecto.jpg" alt="">
+            </div>
+          </article>
+
+          <article class="col">
+            <div class="card">
+              <img src="/public/assets/img/proyecto.jpg" alt="">
+            </div>
+          </article>
+        
+          <article class="col">
+            <div class="card">
+              <img class="" src="/public/assets/img/proyecto.jpg" alt="">
+            </div>
+          </article>
+
+          <article class="col">
+            <div class="card">
+              <img class="" src="/public/assets/img/proyecto.jpg" alt="">
+
+              <p>Proyecto web</p>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
+
+    <footer class="" id="contact">
+      <div class="redes">
+        <a href="https://github.com/FatuKING" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/facundo-adrian-cozzani-00aa871a1/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/1573687952" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="mailto:cozzanifacundo@gmial.com" target="_blank"><i class="bi bi-envelope-at"></i></a>
+      </div>
+
+    </footer>
 
 
     <script type="module" src="/main.js"></script>
