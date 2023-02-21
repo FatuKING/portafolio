@@ -73,6 +73,11 @@ font-family: "Akaya Kanadaka", cursive; */
     font-family: "Akaya Kanadaka", cursive;
 }
 
+/* Estilos proyectos */
+.img-proyecto{
+    height: 20rem;
+}
+
 /* Redes */
 
 .redes{
@@ -93,4 +98,22 @@ font-family: "Akaya Kanadaka", cursive; */
     padding: .5rem;
     opacity: 1;
     transition: 0.2s;
+}
+
+/* Copyright */
+.copy{
+    font-size: 1.3rem;
+    text-align: center;
+    background: #333;
+    position: bottom;
+}
+
+.copy a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 500;
+}
+
+.copy a:hover{
+    font-weight: 600;
 }
