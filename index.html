@@ -11,7 +11,7 @@
 
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Facundo Cozzani</a>
+        <a class="logo" href="#">Facundo Cozzani</a>
 
         <button 
           class="navbar-toggler"
@@ -24,13 +24,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="p-1">
-              <a class="item-link" href="#" target="_blank">Home</a>
+              <a class="item-link" href="#">Inicio</a>
             </li>
             <li class="p-1">
-              <a class="item-link" href="#aboutMe">About me</a>
+              <a class="item-link" href="#acercaDeMi">Acerca de mi</a>
             </li>
             <li class="p-1">
-              <a class="item-link" href="#contact">Contact</a>
+              <a class="item-link" href="#proyectos">Proyectos</a>
+            </li>          
+            <li class="p-1">
+              <a class="item-link" href="#footer">Contacto</a>
             </li>          
           </ul>
         </div>
@@ -40,32 +43,47 @@
     <!-- Encabezado de pagina - Imagen de perfil -->
     <header class="header">  
         <div class="marco">
-          <img class="imgPerfil" src="/public/assets/img/perfil.jpg" alt="">
+          <img class="imgPerfil" src="/public/assets/img/1581417752837.jpg" alt="">
         </div>
         
-        <h1 class="titulo">Web Developer</h1>
-    </header>
+        <p class="descripcion" id="descripcion">Mi nombre es:</p>
+        <h1 class="tituloPrincipal" id="tituloPrincipal">Facundo Cozzani</h1>
 
-    <hr class="container">
+        <div class="contenedorIconos">
+          <li class="item-icono" id="nombre">
+            <i class="bi bi-person-fill"></i>
+        </li>
+        <li class="item-icono" id="mail">
+            <i class="bi bi-envelope-fill"></i>
+        </li>
+        <li class="item-icono" id="fecha">
+            <i class="bi bi-calendar-date-fill"></i>
+        </li>
+        <li class="item-icono" id="ubicacion">
+            <i class="bi bi-geo-alt-fill"></i>
+        </li>
+        <li class="item-icono" id="telefo">
+            <i class="bi bi-telephone-fill"></i>
+        </li>
+        </div>
+    </header>
+    <hr class="container p-2" id="acercaDeMi">
 
     <!-- Cuerpo de pagina -->
-    <main class="main">
+    <main class="container-fluid">
       
       <!-- Acerca de mi -->
-      <section class="container-fluid">
-        <article class="container-fluid" id="aboutMe">
+      <section class="container-fluid p-4">
+        <article class="container-fluid">
           <h2 class="">Acerca de mi</h2>
-
           <p class="">Soy desarrolador Front-End <br>
           <a class="btn btn-primary" href="" download="">Descargar</a>
           </p>
         </article>
 
-        <hr class="container">
-
         <!-- Lista de habilidades -->
 
-        <article class="container-fluid">
+        <article class="container-fluid pt-3">
           <h2>Habilidades</h2>
 
           <ul class="">
@@ -81,12 +99,12 @@
         </article>
       </section>
 
-      <hr class="container">
+      <hr class="container p-2" id="proyectos">
 
       <!-- Proyectos -->
       <section class="container-fluid">
         
-        <h2 class="ps-4">Proyectos</h2>
+        <h2 class="pt-4">Proyectos</h2>
 
         <div class="row">
           <article class="col p-4">
@@ -141,7 +159,7 @@
     </main>
     
     <!-- Pie de Pagina -->
-    <footer class="" id="contact">
+    <footer class="mt-auto" id="footer">
 
       <!-- Redes -->
       <div class="redes">

@@ -5,3 +5,5 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 // JS
 import 'bootstrap/dist/js/bootstrap.min.js'
+import './navbarIcon.js'
+import './navbarIconMobile.js'

@@ -6,8 +6,12 @@ font-family: "Akaya Kanadaka", cursive; */
     box-sizing: border-box;
 }
 
+body{
+    height: 100%;
+}
+
 .navbar{
-    background: goldenrod;
+    background: #333;
 }
 
 .bi-list{
@@ -15,6 +19,17 @@ font-family: "Akaya Kanadaka", cursive; */
 }
 
 /* Estilos para el menu de nav */
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ccd;
+}
+
+.logo:hover{
+    font-weight: 700;
+}
+
 .item-link{
     text-decoration: none;
     color: white;
@@ -22,7 +37,7 @@ font-family: "Akaya Kanadaka", cursive; */
 }
 
 .item-link:hover{
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #004D40;
 }
 
 /* Estilos img header */
@@ -35,7 +50,7 @@ font-family: "Akaya Kanadaka", cursive; */
     justify-content: center;
     align-items: center;
     background: url(/public/assets/img/c3.jpg) center/cover;
-
+    position: relative;
 }
 
 .marco{
@@ -44,7 +59,6 @@ font-family: "Akaya Kanadaka", cursive; */
     min-height: 15rem;
     min-width: 15rem;
     border-radius: 50%;
-    border: 3px solid white;
     position: relative;
 }
 
@@ -60,18 +74,46 @@ font-family: "Akaya Kanadaka", cursive; */
     box-shadow: 0px 0px 54px 5px rgba(255,255,255,0.75);
 }
 
-.titulo{
-    color: white;
+.descripcion{
+    color: #ffff;
+    font-size: min(calc(2vw + .5rem), 4rem);
+    font-weight: 500;
+    text-shadow: 20px 20px 40px black;
+    position: relative;
+}
+
+.tituloPrincipal{
+    color: #ffff;
     font-size: min(calc(3vw + .5rem), 4rem);
     font-weight: 700;
-    
+    text-shadow: 10px 10px 20px black; 
+}
+
+.contenedorIconos{
+    width: 100%;
+    height: 3.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    background-color: #ccd;
+    opacity: .60;
+}
+
+.item-icono{
+    color: black;
+}
+
+.item-icono:hover{
+    font-size: 2.5rem;
+    opacity: 1;
 }
 
 /* Estilos main */
 
-.main{
-    font-family: "Akaya Kanadaka", cursive;
-}
 
 /* Estilos proyectos */
 .img-proyecto{
@@ -88,7 +130,7 @@ font-family: "Akaya Kanadaka", cursive; */
 
 .redes i{
     font-size: 2.5rem;
-    color: black;
+    color: #1A1A2E;
     padding: 1rem;
     opacity: .60;
 }
@@ -120,7 +162,7 @@ textarea {
   }
   
 input[type="submit"] {
-    background-color: #ff6600;
+    background-color: #006655;
     color: #fff;
     border: none;
     margin-top: 15px;
@@ -130,20 +172,22 @@ input[type="submit"] {
   }
   
 input[type="submit"]:hover {
-    background-color: #ff8533;
+    background-color: #004D40;
   }
 
 /* Copyright */
 .copy{
+    width: 100%;
     font-size: 1.3rem;
     text-align: center;
     background: #333;
-    position: bottom;
+    position: absolute;
+    color: #ccd;
 }
 
 .copy a{
     text-decoration: none;
-    color: aqua;
+    color: #ccd;
     font-weight: 500;
 }
 
