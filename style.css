@@ -113,11 +113,32 @@ body{
 }
 
 /* Estilos main */
+main{
+    background: #333;
+    color: #ccd;
+}
 
+.tituloEncabezado{
+    padding-top: 2.7rem;
+}
+
+@media (max-width: 767px) {
+    .tituloEncabezado {
+    padding-top: 3.3rem;
+    }
+}
 
 /* Estilos proyectos */
 .img-proyecto{
     height: 20rem;
+}
+
+.card{
+    border: #333 solid #333;
+}
+.card-body{
+    background-color: #444444;
+   
 }
 
 /* Redes */
@@ -163,7 +184,9 @@ textarea {
   
 input[type="submit"] {
     background-color: #006655;
+    width: 100%;
     color: #fff;
+    text-align: center;
     border: none;
     margin-top: 15px;
     padding: 10px 20px;
